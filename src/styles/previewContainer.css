@@ -1,0 +1,58 @@
+.preview-container___root {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #fcfafa;
+  font-size: 22px;
+  font-weight: 900;
+  height: 100vh;
+
+  background: url('./../../resources/main-bg.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+
+  
+ 
+}
+
+ 
+.preview-container___versus-block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-container___versus-img {
+  width: 130px;
+}
+
+.preview-container___fight-btn {
+  padding: 8px 35px;
+  justify-self: right;
+  text-align: center;
+  margin: 40px 0;
+  color: #f8f9f4;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 6px 6px 7px 0px rgba(0, 0, 0, 0.75);
+  background: linear-gradient(0.25turn, #004D40, #ebf8e1, #F57F17); 
+  transition: color 0.5s linear;
+ 
+}
+
+.preview-container___fight-btn.disabled {
+  opacity: 0;
+}
+
+.preview-container___fight-btn:hover{
+  background: linear-gradient(0.25turn, #F57F17, #ebf8e1, #004D40); 
+  color: #212121;
+  transition: color 0.5s linear;
+}
